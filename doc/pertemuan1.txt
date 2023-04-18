@@ -1,0 +1,26 @@
+<!-- Cara Menjalankan laravel via composer -->
+composer create-project laravel/laravel example-app
+<!-- masuk ke directori laravel -->
+cd example-app
+<!-- menjalankan server laravel -->
+php artisan serve
+
+
+<!-- Menginstall Laravel via Installer -->
+composer global require laravel/installer
+<!-- Membuat projek laravel terbaru -->
+laravel new example-app
+<!-- memasuki directori laravel -->
+cd example-app
+<!-- menjalankan server laravel -->
+php artisan serve
+
+Selanjutnya insall Vallet untuk menjalankan laravel
+1. Download Vallet via packagist.org
+2. Install vallet-windows via composer
+3. ubah dns
+ip 4 192.0.0.1
+ip 6 ::1
+4. Rubah port xampp
+config/http.conf (rubah port 80 ke 8080)
+masuk local host =localhost:8080 
