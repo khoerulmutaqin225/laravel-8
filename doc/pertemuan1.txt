@@ -15,7 +15,7 @@ cd example-app
 <!-- menjalankan server laravel -->
 php artisan serve
 
-Selanjutnya insall Vallet untuk menjalankan laravel
+Selanjutnya install Vallet untuk menjalankan laravel
 1. Download Vallet via packagist.org
 2. Install vallet-windows via composer
 3. ubah dns
@@ -24,3 +24,5 @@ ip 6 ::1
 4. Rubah port xampp
 config/http.conf (rubah port 80 ke 8080)
 masuk local host =localhost:8080 
+5. masuk ke directory htdoct/applications
+6. ketik valet park 
